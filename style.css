@@ -1,3 +1,4 @@
+/* Navbar style */
 .nav-link{
 width: 100px;
 }
@@ -14,9 +15,8 @@ width: 100px;
 .navbar-light .navbar-nav .nav-link {
      color:black; 
 }
-.header-div{
-    margin-top: 80px;
-}
+/* End Navbar style */
+/* Header section css */
 header{
     background-color: #F0FFF0;
 }
@@ -61,4 +61,60 @@ header p{
 }
 .temp-div{
     height: 60px;
+}
+/* end header section css */
+/* Book Section css start */
+.books-section h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+}
+.normal-div-books{
+    padding: 40px 40px;
+    background-color: #F8FFFB;
+}
+.selected-div-books{
+    padding: 40px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+/* Books Section css end */
+/* Course section css */
+.course-h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    color: #413960;
+}
+.buy-course-button{
+    width: 137px;
+    height: 40px;
+    padding: 8px 28px;
+    background: #21B573;
+    border-radius: 33px;
+    border: none;
+    color: white;
+}
+.card p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    color: #585859;
+}
+.card-timer{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color:#585859;
+}
+.card{
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
 }
