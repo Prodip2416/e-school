@@ -118,3 +118,50 @@ header p{
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
     border-radius: 18px;
 }
+/* Course section csss end */
+/* Others section css */
+.others-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.others-section h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: black;
+    text-align: center;
+}
+/* End Others section */
+/* Start blog section css */
+.blog-section{
+    /* height: 370px; */
+    background-color: #282531;
+}
+.first-blog{
+    margin-top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.second-blog{
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+.blog-section li{
+    list-style: none;
+    margin-left: -39px;
+}
+.blog-li{     
+    margin-top: 50px;
+    color: #FFFFFF;
+}
+footer{
+margin-top: 60px;
+    color: #FFFFFF;
+}
+/* End blog section */
