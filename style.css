@@ -100,17 +100,16 @@ header p{
     color: white;
 }
 .card p{
-    font-family: Poppins;
-    font-style: normal;
     font-weight: normal;
-    color: #585859;
 }
 .card-timer{
-    font-family: Poppins;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    color:#585859;
+}
+.card p, .card-timer{
+    font-family: Poppins;
+    font-style: normal;
+    color: #585859;
 }
 .card{
     border: none;
@@ -122,7 +121,7 @@ header p{
 /* Others section css */
 .others-section{
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .h2-section{
     font-family: Poppins;
@@ -136,7 +135,6 @@ header p{
 /* End Others section */
 /* Start blog section css */
 .blog-section{
-    /* height: 370px; */
     background-color: #282531;
 }
 .first-blog{
@@ -169,4 +167,30 @@ margin-top: 60px;
 .upcomming-event a{
     text-decoration: none;
 }
+.event-heading{
+    font-size: 20px;
+}
+
 /* UPCOMING EVENTS css end */
+/* carousel section start */
+.carousel-indicators li{
+    background-color: gray;
+    height: 8px;
+    width: 16px;
+    border: none;
+    border-radius: 15px;
+}
+.carousel-indicators .active{
+    background-image: linear-gradient(to left, #ffd019,#ffb429);
+    height: 8px;
+    width: 16px;
+    border: none;
+    border-radius: 15px;
+}
+.instructor-section{
+background-color: rgb(247, 242, 242);
+}
+#carouselExampleIndicators h3{
+    font-size: 20px;
+}
+/* carousel section start */
