@@ -124,7 +124,7 @@ header p{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.others-section h2{
+.h2-section{
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -165,3 +165,8 @@ margin-top: 60px;
     color: #FFFFFF;
 }
 /* End blog section */
+/* UPCOMING EVENTS css start*/
+.upcomming-event a{
+    text-decoration: none;
+}
+/* UPCOMING EVENTS css end */
